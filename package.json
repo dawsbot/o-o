@@ -1,0 +1,60 @@
+{
+  "name": "o-o",
+  "version": "0.0.0",
+  "description": "Terminal-cli for browser bookmarks (pronounced \"oh oh\")",
+  "license": "MIT",
+  "homepage": "https://github.com/dawsonbotsford/o-o#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawsonbotsford/o-o.git"
+  },
+  "author": {
+    "name": "Dawson Botsford",
+    "email": "DawsonBotsford@gmail.com",
+    "url": "dawsonbotsford.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dawsonbotsford/o-o/issues"
+  },
+  "bin": {
+    "o": "lib/cli.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "bookmark",
+    "browser",
+    "efficiency",
+    "workflow",
+    "open",
+    "cli-app",
+    "cli",
+    "dawson"
+  ],
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "chalk": "^1.1.3",
+    "dotless-conf": "^0.0.0",
+    "handlebars": "^4.0.5",
+    "inquirer": "^1.1.2",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.7.0",
+    "opn": "^4.0.2",
+    "update-notifier": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "execa": "^0.4.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "space": true
+  }
+}
