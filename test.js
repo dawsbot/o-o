@@ -10,7 +10,7 @@ test('api rm', t => {
   const aliasName = 'testAliasRmApi';
   const aliasPath = 'http://exampleRmApi.com';
   conf.set(aliasName, aliasPath);
-  t.is(o.rm(aliasName), aliasPath);
+  t.is(o.rm(aliasName), aliasName);
   t.is(conf.has(aliasName), false);
 
   t.throws(() => {
