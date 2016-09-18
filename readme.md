@@ -82,23 +82,23 @@ Help:
 ```sh
 $ o --help
 
-Usage
-  $ o [alias|command] [, arguments]
+  Usage
+    $ o [alias|command] [, arguments]
 
-Examples
-  $ o new # create new bookmark
-  $ o ls # print list of saved bookmarks
-  $ o rm o # delete the "o" alias
-  $ o clear # delete all saved bookmarks
-  $ o path # print file path to bookmark file
-
+  Examples
+    $ o # create new alias
+    $ o new # create or rename alias
+    $ o ls # print list of saved aliases
+    $ o rm <alias> # delete an alias
+    $ o clear # delete all
+    $ o path # print file path to alias file
 ```
 
 <br>
 
 ## Dynamic Templating
 
-Aliases can use dynamic [handlebars](http://handlebarsjs.com/) templates. This allows arguments to be dynamically inserted into a `path`. If you have never used handlebars, don't fear. It's simple.
+Aliases can (optionally) have [handlebars](http://handlebarsjs.com/) templates. This allows arguments to be dynamically inserted into a `path`. If you have never used handlebars, don't fear. It's simple.
 
 `o` handlebars templates are 0-indexed, just like an array. They begin at `o0` and continue to `o1`, `o2`, etc.
 
