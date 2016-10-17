@@ -1,8 +1,17 @@
-<img src="media/logo.png"/>
-
-[![npm version](https://img.shields.io/npm/v/o-o.svg)](https://www.npmjs.com/package/o-o)
-[![Build Status](https://travis-ci.org/dawsonbotsford/o-o.svg?branch=master)](https://travis-ci.org/dawsonbotsford/o-o)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+<p align="center">
+  <img src="media/logo.png"/>
+</p>
+<p align="center">
+  <a href="https://www.npmjs.com/package/o-o">
+    <img src="https://img.shields.io/npm/v/o-o.svg" alt="npm version"/>
+  </a>
+  <a href="https://travis-ci.org/dawsonbotsford/o-o">
+    <img src="https://travis-ci.org/dawsonbotsford/o-o.svg?branch=master" alt="build status"/>
+  </a>
+  <a href="https://github.com/sindresorhus/xo">
+    <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg" alt="xo code style"/>
+  </a>
+</p>
 
 > a cli for opening things like url's and files (pronounced "oh oh")
 
