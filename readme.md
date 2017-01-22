@@ -40,6 +40,21 @@ $ o o
 # opens https://github.com/dawsonbotsford/o-o in your browser
 ```
 
+<br>
+
+Print saved aliases:
+
+```sh
+$ o ls
+# {
+#   "o": "https://github.com/dawsonbotsford/o-o",
+#   "so": "https://stackoverflow.com/search?q={{o0}}",
+#   "g": "https://github.com/{{o0}}/{{o1}}"
+# }
+```
+
+<br>
+
 `o` can also be used with dynamic `path`'s:
 
 ```sh
@@ -71,17 +86,6 @@ $ o new /Users/dawsonbotsford/code/o-o/readme.md or
 
 $ o or
 # opens file with default application
-```
-
-Print saved aliases:
-
-```sh
-$ o ls
-# {
-#   "o": "https://github.com/dawsonbotsford/o-o",
-#   "so": "https://stackoverflow.com/search?q={{o0}}",
-#   "g": "https://github.com/{{o0}}/{{o1}}"
-# }
 ```
 
 <br>
