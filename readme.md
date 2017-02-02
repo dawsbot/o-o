@@ -5,8 +5,8 @@
   <a href="https://www.npmjs.com/package/o-o">
     <img src="https://img.shields.io/npm/v/o-o.svg" alt="npm version"/>
   </a>
-  <a href="https://travis-ci.org/dawsonbotsford/o-o">
-    <img src="https://travis-ci.org/dawsonbotsford/o-o.svg?branch=master" alt="build status"/>
+  <a href="https://travis-ci.org/dawsbot/o-o">
+    <img src="https://travis-ci.org/dawsbot/o-o.svg?branch=master" alt="build status"/>
   </a>
   <a href="https://github.com/sindresorhus/xo">
     <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg" alt="xo code style"/>
@@ -37,7 +37,7 @@ For example:
 
 ```sh
 $ o o
-# opens https://github.com/dawsonbotsford/o-o in your browser
+# opens https://github.com/dawsbot/o-o in your browser
 ```
 
 <br>
@@ -47,7 +47,7 @@ Print saved aliases:
 ```sh
 $ o ls
 # {
-#   "o": "https://github.com/dawsonbotsford/o-o",
+#   "o": "https://github.com/dawsbot/o-o",
 #   "so": "https://stackoverflow.com/search?q={{o0}}",
 #   "g": "https://github.com/{{o0}}/{{o1}}"
 # }
@@ -82,7 +82,7 @@ $ o new https://facebook.com fb
 It's not just for url's:
 
 ```sh
-$ o new /Users/dawsonbotsford/code/o-o/readme.md or
+$ o new /Users/dawsbot/code/o-o/readme.md or
 
 $ o or
 # opens file with default application
