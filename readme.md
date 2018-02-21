@@ -13,9 +13,21 @@
   </a>
 </p>
 
-> a cli for opening things like url's and files (pronounced "oh oh")
+> Browser bookmarks, but for the terminal
 
 <br>
+
+```sh
+$ o new https://github.com gh
+✔ Created new alias "gh"
+
+# days, months, or years later
+
+$ o gh
+opening https://github.com
+
+🎩🐰 It's like magic, your browser opens github! 🎩🐰 
+```
 
 ## Install
 
@@ -30,15 +42,6 @@ $ o <alias>
 ```
 
 Opens the `path` associated with `<alias>`.
-
-<br>
-
-For example:
-
-```sh
-$ o o
-# opens https://github.com/dawsbot/o-o in your browser
-```
 
 <br>
 
