@@ -33,6 +33,8 @@ opening https://github.com
 
 ```sh
 $ npm install --global o-o
+or
+$ yarn global add o-o
 ```
 
 ## Usage
